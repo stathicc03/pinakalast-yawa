@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ</title>
+<link rel="stylesheet" href="faq.css">
+</head>
+<div class="background-image"></div>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html" target="_self">Portfolio</a></li>
+                <li><a href="Blog.html" target="_self">Blog</a></li>
+                <li><a href="Resume.html" target="_self">Resume</a></li>
+                <li><a href="Services.html" target="_self">Services</a></li>
+                <li><a href="Testimonials.html" target="_self">Testimonials</a></li>
+                <li><a href="FAQ.html" target="_self">FAQ</a></li>
+                <li><a href="error.html" target="_self">Error</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>FAQs</h1>
+    <div class="faq-item">
+        <h3>How do you manage to balance your studies and work responsibilities effectively?</h3>
+        <div class="faq-answer">
+            <p>Prioritizing tasks, scheduling, and open communication help me balance both effectively.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <h3>What motivated you to pursue both work and studies simultaneously?</h3>
+        <div class="faq-answer">
+            <p>The drive for personal growth and career advancement motivates me.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <h3>How do you handle stress and maintain a healthy work-life balance amidst your busy schedule?</h3>
+        <div class="faq-answer">
+            <p>I prioritize self-care, delegate tasks, and set boundaries to maintain balance.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <h3>What advice would you offer to others considering pursuing work and studies simultaneously?</h3>
+        <div class="faq-answer">
+            <p>Set clear goals, seek support when needed, and prioritize well-being.</p>
+        </div>
+    </div>
+</div>
+<div class="back-button">
+    <a href="index.html">Back to Home</a>
+</div>
+</div>
+</div>
+
+<script>
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        item.addEventListener('click', () => {
+            item.classList.toggle('active');
+        });
+    });
+</script>
+
+</body>
+</html>

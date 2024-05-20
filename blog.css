@@ -1,0 +1,64 @@
+body {
+    font-family: 'Canva Sans', sans-serif; 
+    font-size: 20px; 
+    color: #000;
+    background-image: url("blank-white-7sn5o1woonmklx1h.jpg")
+  }
+  
+  header {
+    background-image: url("abstract-polygonal-shape-black-background-free-vector (1).jpg");
+    color: #000000; 
+    padding: 30px 0; 
+    text-align: center; 
+  }
+
+img {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    margin: 20px auto;
+    
+  }
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: yellow; 
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #000000;
+    background-image: url("background-header.jpg");
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

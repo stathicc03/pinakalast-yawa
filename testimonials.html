@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Testimonials</title>
+<link rel="stylesheet" href="testimonials.css">
+</head>
+<body>
+<header>
+<h1>Testimonials</h1>
+<nav>
+    <ul>
+        <li><a href="portfolio.html" target="_self">Portfolio</a></li>
+        <li><a href="Blog.html" target="_self">Blog</a></li>
+        <li><a href="Resume.html" target="_self">Resume</a></li>
+        <li><a href="Services.html" target="_self">Services</a></li>
+        <li><a href="Testimonials.html" target="_self">Testimonials</a></li>
+        <li><a href="FAQ.html" target="_self">FAQ</a></li>
+        <li><a href="index.html" class="back-to-home">Home</a></li>
+    </ul>
+</nav>
+</header>
+
+</div>
+<div class="testimonial">
+     <div class="testimonial-text" class="container">
+         <img src="182994128_503558374114613_3611974225954383677_n.jpg" alt="Image">
+         <p>Having witnessed my husband's dedication firsthand, I can confidently say that he epitomizes the essence of hard work. Balancing the demands of both work and study, he demonstrates an unwavering commitment to his goals and responsibilities. His perseverance and determination serve as a constant inspiration to me and our family. Despite the challenges that come his way, he tackles each one with resilience and a positive attitude. I am immensely proud to call him my husband, knowing that his diligent efforts not only benefit our family but also set a shining example for others. His work ethic is truly admirable, and I am grateful every day to have such a dedicated partner by my side.</p>
+         <p class="name">~Nikki Sabaña</p>
+         <p class="affiliation">Wife</p>
+     </div>
+</div>      
+</div>
+  <button class="prev" onclick="moveSlide(-1)">❮</button>
+  <button class="next" onclick="moveSlide(1)">❯</button>
+  
+<footer>
+    <script>
+        let slideIndex = 0;
+
+function showSlide(n) {
+  const slides = document.getElementsByClassName("testimonial");
+  if (n >= slides.length) { slideIndex = 0; }
+  if (n < 0) { slideIndex = slides.length - 1; }
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex].style.display = "block";
+}
+
+function moveSlide(n) {
+  showSlide(slideIndex += n);
+}
+
+showSlide(slideIndex);
+
+    </script>
+<p> @stathicc </p>
+</footer>
+</body>
+</html>
